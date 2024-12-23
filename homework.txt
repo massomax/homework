@@ -11,14 +11,14 @@ config/
 
 4. Добовляем все файлы в лок хран. 
 $ git add .
-$ git commit "Add mine file"
+$ git commit -m "Add mine file"
 
 5. Создаем новую ветку forum и переходим в нее
 $ git checkout -b forum
 
 6. Создаем папку blog с файлами index.js index.html, добовляем файлы в лок хран.
 $ git add .
-$ git commit "Add branch Forum"
+$ git commit -m "Add branch Forum"
 
 7.Переходим в основную ветку Master , устанавливаем связь с Git'ом и пушим файлы на удал репозиторий.
 $ git checkout master 
