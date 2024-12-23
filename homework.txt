@@ -1,0 +1,26 @@
+1. Создаем новый проект
+
+2. Инициалиируем в проекте git 
+$ git init
+
+3. В корне проекта создаем фаил .gitignore в него прописываем
+*.sass
+bin/
+admin/
+config/
+
+4. Добовляем все файлы в лок хран. 
+$ git add .
+$ git commit "Add mine file"
+
+5. Создаем новую ветку forum и переходим в нее
+$ git checkout -b forum
+
+6. Создаем папку blog с файлами index.js index.html, добовляем файлы в лок хран.
+$ git add .
+$ git commit "Add branch Forum"
+
+7.Переходим в основную ветку Master , устанавливаем связь с Git'ом и пушим файлы на удал репозиторий.
+$ git checkout master 
+$ git remote add origin https://github.com/massomax/homework.git
+$ git push -u origin master /**Загружаем только основную ветку проекта**/
